@@ -1,0 +1,52 @@
+INSTRUCTIONS ON MAKING A BEATMAP AND SONG
+
+Note: Timing of the beat map and the song must be tested in the game. Thus, each accurate point will take a while.
+
+1. Add beat map text file to beat map folder
+
+2. Update MapData.txt by adding the following at the end of the file (MUST BE ALPHABETICAL ORDER:
+	
+	Name of song + Map (** MUST MATCH SONG NAME)
+	Name of song + Map.txt
+	# of lines in the beat map
+	Rate of node size factor change (just how much you want to increase the size of the node while its moving
+	Speed of line 1 (in the game nodes follow these lines, testing may be required so they reach the end at the same time
+	Speed of line 2
+	Speed of line 3
+	
+	
+	Follow this EXAMPLE:
+	Wii Shop Channel Theme Map 
+	Wii Shop Channel Theme Map.txt
+	416
+	0.5
+	5
+	4.5
+	4.3
+
+3. Add song mp3 file to SongData folder
+
+4. Update song data text file by adding the following at the end of the file (MUST BE ALPHABETICAL ORDER, so change order if needed):
+
+	Name of song
+	Song tempo (rate at which the nodes will be spawned: tempo/60)
+	Name of song +.mp3
+	Name for images (one word, file names of images must be
+						wordbg.gif
+						wordHappyR.png
+						wordHappyL.png
+						wordSadL.png
+						wordSadR.png
+						
+						example word = mario
+						
+						mariobg.gif etc..
+						
+						).
+
+	EXAMPLE: 
+	
+	Super Mario Bros Theme
+	150
+	Super Mario Bros Main Theme.mp3
+	mario

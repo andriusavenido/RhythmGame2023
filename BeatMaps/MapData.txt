@@ -1,0 +1,21 @@
+Super Mario Bros Theme Map
+Super Mario Bros Theme Map.txt
+390
+0.5
+5
+4.5
+4.3
+Test Map
+TestMap.txt
+5
+0.5
+0
+0
+0
+Wii Shop Channel Theme Map
+Wii Shop Channel Theme Map.txt
+416
+0.5
+5
+4.5
+4.3
